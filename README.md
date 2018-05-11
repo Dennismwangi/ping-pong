@@ -1,15 +1,16 @@
-# Mama Anita's Kitchen
+# P-ing P-ong
 
 ## By Dennis Mwangi
 
-This is a website to Mama Anita's Kitchen. The Restaurant serves the best Burgers this side of the Sahara.
+This is a website to a Ping Pong Game. The game is made to get and keep you bored with Math!!
+Hop in! Lets all get Bored!
 
-Check it out, pop in and have a Burger(s)
+The game is made in HTML, CSS and Javascript!! 
 
 ### Setup
 ```
 git clone
-https://github.com/Dennismwangi/mama-anita.git
+https://github.com/Dennismwangi/ping-pong.git
 
 ```
 open index.html
