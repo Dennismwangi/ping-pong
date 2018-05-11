@@ -15,7 +15,7 @@ https://github.com/Dennismwangi/mama-anita.git
 open index.html
 
 
-#### Link to the Site [Github](https://Dennismwangi.github.io)
+#### Link to the Site [Github](https://github.com/Dennismwangi/ping-pong)
 
 #### Copyright (c) [2018] Dennis Mwangi
 

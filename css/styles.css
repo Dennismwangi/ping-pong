@@ -1,3 +1,40 @@
 body{
-    background-color: blueviolet
+    background-color: #DAF7A6;
+}
+.top{
+background-color: rgba(245, 245, 245, 0.973);
+height: auto;
+margin-top: 0px;
+ overflow: auto;
+}
+#intro{
+    font-family: 'Architects Daughter', cursive;
+    font-size: 60px;
+    color: #3352FF; 
+    text-align: center;  
+}
+#logo {
+    float:right;   
+}
+.hd{    
+    padding:5px;
+    margin-top: 0px;
+}
+.bottom {
+    margin-top: 20px;
+    font-family: 'Neucha', cursive;
+    font-size: 15px;
+    
+}
+.left{
+    background-color: aquamarine;
+    height: auto;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+.right {
+    
+    padding-top: 20px;
+    padding-left:50px;
+    float:right;  
 }
