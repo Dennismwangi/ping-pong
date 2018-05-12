@@ -57,39 +57,47 @@
                     </ol>
                 </p>
 
-                <form>
+                <form id="print">
                     <p>
                         Enter your number here : 
                         <input class="number" type="text" placeholder="Enter Whole Number" name="Numberhere">
-                        <input type="submit" value="P-ing P-ong">
-                    </p>                   
+                        <!-- <button type="button" onclick="pingPong">P-ing P-ong!</button>-->
+                       <input type="submit" onclick="pingPong()" value="P-ing P-ong"> 
+                    </p>   
+                    <p>
+                        <ul>
+                            <li id="result"> </li>
+                        </ul>
+                    </p>                
                 </form>
 
-                <!--
+               
 
                 <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
                     crossorigin="anonymous"></script>
-                <script src="js/jquery.js" charset="utf-8"></script>
+               <!-- <script src="js/jquery.js" charset="utf-8"></script>-->
                 
                 <script>
-                    $("form#cipher").submit(function (event) {
+                    $("form#print").submit(function (event) {
                         event.preventDefault();
-                        var s = $("#sentence").val();
-                        $("p#main").text(cipher(s));
+                        var i = $("#number").val();
+                        
+                       $("li#result").print((i));         
+                        
                     });
                 </script>
                 <script>
-                    function fizzBuzz(number) {
+                    function pingPong(number) {
                         var numbers = [];
                         for (var i = 0; i < number; i++) {
                             if ((i % 3 === 0) && (i % 5 === 0)) {
-                                numbers.push("FizzBuzz");
+                                numbers.push("PingPong");
                             }
                             else if (i % 5 === 0) {
-                                numbers.push("Buzz");
+                                numbers.push("Pong");
                             }
                             else if (i % 3 === 0) {
-                                numbers.push("Fizz");
+                                numbers.push("Ping");
 
                             }
                             else {
@@ -100,9 +108,38 @@
 
                     }
                 </script>
-                
+                <!--$("li#result")text.(print(i)); //Inside form#print
+                 $(document.getElementById("result").innerHTML = i);
+                -->
+                <!--
                 <script src="js/scripts.js" charset="utf-8"></script>
-            -->
+                
+                <script>
+                    function pingPong(number) {
+                        var numbers = [];
+                        for (var i = 0; i < number; i++) {
+                            if ((i % 3 === 0) && (i % 5 === 0)) {
+                                numbers.push("PingPong");
+                            }
+                            else if (i % 5 === 0) {
+                                numbers.push("Pong");
+                            }
+                            else if (i % 3 === 0) {
+                                numbers.push("Ping");
+
+                            }
+                            else {
+                                numbers.push(i);
+                            }
+                        }
+                        return numbers;
+
+                    }
+                </script>
+                 -->
+                
+                
+            
             </div>
                 
 
